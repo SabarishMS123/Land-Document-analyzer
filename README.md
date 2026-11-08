@@ -46,17 +46,17 @@ The UI features a custom **"Cadastral Ledger"** design system — a deep ink-nav
 
 <div align="center">
 
-  <img src="./images/main-dashboard.png" width="800" alt="Main Dashboard" />
+  <img src="./images/MAIN DASHBOARD.png" width="800" alt="Main Dashboard" />
   <p><em>Main Dashboard — real-time stats and risk distribution</em></p>
 
   <br/>
 
-  <img src="./images/deeds-upload.png" width="800" alt="Deeds Upload" />
+  <img src="./images/DEEDS UPLOAD.png" width="800" alt="Deeds Upload" />
   <p><em>Deeds Upload — drag-and-drop PDF ingestion pipeline</em></p>
 
   <br/>
 
-  <img src="./images/document-ledger.png" width="800" alt="Document Ledger Board" />
+  <img src="./images/DOCUMENT LEDGER BOARD.png" width="800" alt="Document Ledger Board" />
   <p><em>Document Ledger — searchable index of all processed deeds</em></p>
 
 </div>
