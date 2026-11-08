@@ -182,7 +182,7 @@ sequenceDiagram
 - **Vanilla CSS** — Custom "Cadastral Ledger" design system
 
 ### AI Model
-- **Llama 3.3 70B Versatile** (via Groq API)
+- **OpenAI ChatGPT 120B Versatile** (via Groq API)
 
 ---
 
