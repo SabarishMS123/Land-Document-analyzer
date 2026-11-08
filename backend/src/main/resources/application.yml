@@ -1,0 +1,50 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: ai-land-document-analyzer
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/land_analyzer
+    username: postgres
+    password: 1522
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+  servlet:
+    multipart:
+      max-file-size: 25MB
+      max-request-size: 25MB
+
+  # Spring AI is configured against Groq's OpenAI-compatible endpoint.
+  # Groq API key: https://console.groq.com/keys
+  ai:
+    openai:
+      api-key: gk_xxx
+      base-url: https://api.groq.com/openai
+      chat:
+        options:
+          model: llama-3.3-70b-versatile
+          temperature: 0.2
+          max-tokens: 2048
+
+app:
+  cors:
+    allowed-origins: http://localhost:3000
+  risk:
+    # thresholds used by the rule-assisted risk scoring engine
+    high-risk-score: 70
+    medium-risk-score: 40
+
+logging:
+  level:
+    com.landanalyzer: INFO
